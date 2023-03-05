@@ -1,0 +1,63 @@
+<%
+  const pageInfo = {
+    url: "/"
+    <!-- url: "/codingkadai/02/nakazono/" -->
+  };
+-%>
+<!DOCTYPE html>
+<html lang="ja">
+<%- include('./include/_head', {meta:pageInfo}); -%>
+<body class="p-top">
+  <main class="main">
+    <div class="p-top__inner">
+      <h1 class="p-top__title">
+        課題：JavaScript でページネーションコンポーネントを実装しよう
+        <span class="p-top__sub-title">～反社会的組織主要メンバー～</span>
+      </h1>
+
+      <input type="text">
+      <select name="" id=""></select>
+
+      <div id="members" class="p-top-members"></div>
+
+      <!-- <ul id="members" class="p-top-members"></ul> -->
+
+      <ul class="Pagination">
+        <li class="Pagination-Item">
+          <a class="Pagination-Item-Link" href="/pages/1/">
+            <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M11 19l-7-7 7-7m8 14l-7-7 7-7" />
+            </svg>
+          </a>
+        </li>
+        <li class="Pagination-Item">
+          <a class="Pagination-Item-Link isActive" href="/pages/1/"><span>1</span></a>
+        </li>
+        <li class="Pagination-Item">
+          <a class="Pagination-Item-Link" href="/pages/2/"><span>2</span></a>
+        </li>
+        <li class="Pagination-Item">
+          <a class="Pagination-Item-Link" href="/pages/3/"><span>3</span></a>
+        </li>
+        <li class="Pagination-Item">
+          <a class="Pagination-Item-Link" href="/pages/4/"><span>4</span></a>
+        </li>
+        <li class="Pagination-Item">
+          <a class="Pagination-Item-Link" href="/pages/5/"><span>5</span></a>
+        </li>
+        <li class="Pagination-Item">
+          <a class="Pagination-Item-Link" href="/pages/5/">
+            <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+
+      <p id="count"></p>
+    </div>
+
+  </main>
+  <script defer src="<%= pageInfo.url %>assets/js/bundle.js"></script>
+</body>
+</html>

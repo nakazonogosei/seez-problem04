@@ -1,0 +1,142 @@
+[
+  {
+    "group": "中園組",
+    "member": "いちろう",
+    "age": "52",
+    "from": "福岡",
+    "weapon": "メリケンサック"
+  },
+  {
+    "group": "中園組",
+    "member": "じろう",
+    "age": "50",
+    "from": "鹿児島",
+    "weapon": "爆竹"
+  },
+  {
+    "group": "中園組",
+    "member": "さぶろう",
+    "age": "35",
+    "from": "佐賀",
+    "weapon": "拳銃"
+  },
+  {
+    "group": "中園組",
+    "member": "しろう",
+    "age": "28",
+    "from": "宮崎",
+    "weapon": "なた"
+  },
+  {
+    "group": "中園組",
+    "member": "ごろう",
+    "age": "22",
+    "from": "宮崎",
+    "weapon": "釘バット"
+  },
+  {
+    "group": "馬田組",
+    "member": "いちろう",
+    "age": "49",
+    "from": "長崎",
+    "weapon": "アイスピック"
+  },
+  {
+    "group": "馬田組",
+    "member": "じろう",
+    "age": "47",
+    "from": "鹿児島",
+    "weapon": "時限爆弾マウス"
+  },
+  {
+    "group": "馬田組",
+    "member": "さぶろう",
+    "age": "44",
+    "from": "佐賀",
+    "weapon": "ノロウイルスキーボード"
+  },
+  {
+    "group": "馬田組",
+    "member": "しろう",
+    "age": "29",
+    "from": "宮崎",
+    "weapon": "なた"
+  },
+  {
+    "group": "馬田組",
+    "member": "ごろう",
+    "age": "19",
+    "from": "宮崎",
+    "weapon": "釘バット"
+  },
+  {
+    "group": "五十嵐組",
+    "member": "いちろう",
+    "age": "33",
+    "from": "東京",
+    "weapon": "大量がびょう"
+  },
+  {
+    "group": "五十嵐組",
+    "member": "じろう",
+    "age": "30",
+    "from": "鹿児島",
+    "weapon": "電流100ボルト"
+  },
+  {
+    "group": "五十嵐組",
+    "member": "さぶろう",
+    "age": "22",
+    "from": "佐賀",
+    "weapon": "毒針弓矢"
+  },
+  {
+    "group": "五十嵐組",
+    "member": "しろう",
+    "age": "18",
+    "from": "宮崎",
+    "weapon": "なた"
+  },
+  {
+    "group": "五十嵐組",
+    "member": "ごろう",
+    "age": "17",
+    "from": "宮崎",
+    "weapon": "釘バット"
+  },
+  {
+    "group": "平岡組",
+    "member": "いちこ",
+    "age": "39",
+    "from": "大阪",
+    "weapon": "釘かちゅうしゃ"
+  },
+  {
+    "group": "平岡組",
+    "member": "にこ",
+    "age": "34",
+    "from": "鹿児島",
+    "weapon": "しゅりけん"
+  },
+  {
+    "group": "平岡組",
+    "member": "さえこ",
+    "age": "30",
+    "from": "佐賀",
+    "weapon": "拳銃"
+  },
+  {
+    "group": "平岡組",
+    "member": "よしこ",
+    "age": "26",
+    "from": "宮崎",
+    "weapon": "なた"
+  },
+  {
+    "group": "平岡組",
+    "member": "ごうこ",
+    "age": "25",
+    "from": "宮崎",
+    "weapon": "釘バット"
+  }
+]

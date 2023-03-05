@@ -1,0 +1,75 @@
+@use "../global" as *;
+
+.p-top {
+  padding: 60px 0;
+  &__inner {
+    max-width: 1200px;
+    padding: 0 40px;
+    margin: 0 auto;
+  }
+  &__title {
+    font-size: 2.4rem;
+    text-align: center;
+  }
+  &__sub-title {
+    display: block;
+    font-size: 1.8rem;
+  }
+}
+
+.p-top-members {
+  &__list {
+    margin-top: 60px;
+    // display: none;
+    // &.is-active {
+    //   display: block;
+    // }
+  }
+  &__item {
+    display: flex;
+    padding: 10px 0;
+    font-size: 1.8rem;
+    border-bottom: 1px solid rgb(197, 197, 197);
+    span {
+      width: 20%;
+    }
+  }
+}
+
+.Pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.Pagination-Item-Link {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  background: #fff;
+  border: solid 2px #111;
+  font-size: 14px;
+  color: #111;
+  font-weight: bold;
+  transition: all 0.15s linear;
+}
+.Pagination-Item-Link-Icon {
+  width: 20px;
+}
+.Pagination-Item-Link.isActive {
+  background: #111;
+  color: #fff;
+  pointer-events: none;
+}
+.Pagination-Item-Link:not(.isActive):hover {
+  background: #111;
+  color: #fff;
+}
+.Pagination > * + * {
+  margin-left: 8px;
+}
